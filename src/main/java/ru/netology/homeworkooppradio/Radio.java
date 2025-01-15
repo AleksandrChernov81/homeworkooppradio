@@ -2,8 +2,8 @@ package ru.netology.homeworkooppradio;
 
 public class Radio {
 
-    public int currentStationNumber;
-    public int soundVolume;
+    private int currentStationNumber;
+    private int soundVolume;
 
     public int getCurrentStationNumber() {
         return currentStationNumber;
